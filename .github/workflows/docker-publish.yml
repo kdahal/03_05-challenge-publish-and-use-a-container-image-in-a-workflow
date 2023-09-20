@@ -99,5 +99,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
        - name: test
-         run: docker run ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+         run: docker run ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
          
